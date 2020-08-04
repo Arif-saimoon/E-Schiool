@@ -1,0 +1,130 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Quicksand', sans-serif;
+}
+a{
+    text-decoration: none;
+}
+img{
+    width: 100%;
+}
+html{
+    scroll-behavior: smooth;
+}
+/*====Defult Css=====*/
+.section-tittle h1{
+    color: #000;
+    font-size: 40px;
+    padding-bottom: 50px;
+    text-align: center;
+}
+.section-tittle h1::after{
+    content: "";
+    position: relative;
+    display: block;
+    width: 120px;
+    height: 5px;
+    top: 20px;
+    margin-top: 20px;
+    margin: auto;
+    background-color: #21B573;
+    border-radius: 10px;
+    text-align: center;
+}
+.header-btn{
+    text-decoration: none;
+    background: #21B573;
+    padding: 8px 25px;
+    border-radius: 25px;
+    color: #fff;
+    font-weight: 600;
+    border: 2px solid #21B573;
+    margin-left: 15px;
+    transition: all .3s ease-in;
+}
+.header-btn:hover{
+    background: transparent;
+    color: #21B573;
+}
+/*====Defult Css=====*/
+
+/*====Header Section Css=====*/
+#header{
+    height: 100vh;
+}
+#header, #header .header-bg{
+    background: #e8fce8 ;
+}
+#header nav ul li{
+    padding: 15px 15px;
+}
+#header nav ul li a{
+    color: #000;
+    font-size: 16 px;
+    position: relative;
+    padding: 0;
+    transition: all .2s ease-in;
+}
+
+#header nav ul li a:hover{
+    color: #141414;
+}
+#header nav ul li a::after{
+    content: "";
+    display: block;
+    position: absolute;
+    background-color: #21B573;
+    top: 35px;
+    left: 0;
+    height: 3px;
+    width: 0;
+    transition: all .2s ease-in;
+}
+
+#header nav ul li a:hover::after{
+    width: 100%;
+}
+#header nav ul li a:hover{
+    color: #11bb6e;
+}
+/*====About Section Css=====*/
+
+#About .info-box{
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 10px 20px 10px rgba(158, 158, 158, 0.2);
+    transition: all .3s ease-in;
+    cursor: pointer;
+}
+#About .info-box:hover{
+    box-shadow: 0 10px 20px 17px rgba(158, 158, 158, 0.3);
+}
+
+/*====Online Courses Section Css=====*/
+
+.course-box{
+    border-radius: 10px;
+    box-shadow: 0 10px 20px 10px rgba(158, 158, 158, 0.2);
+}
+
+.carousel-control-next, .carousel-control-prev{
+    color: #000;
+}
+.carousel-control-prev .fa-arrow-left, .carousel-control-next .fa-arrow-right{
+    font-size: 30px;
+}
+
+.carousel-control-prev:hover .fa-arrow-left, .carousel-control-next:hover .fa-arrow-right{
+    color: #000;
+}
+
+
+footer{
+    background: #282531;
+}
+footer ul li a{
+    color: #fff!important;
+}
